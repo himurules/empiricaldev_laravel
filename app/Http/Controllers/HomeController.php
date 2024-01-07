@@ -64,7 +64,10 @@ class HomeController extends Controller
             return redirect()->back()->withErrors($validator)->withInput();
         }
 
-        Mail::to('himanshu.kotnala@gmail.com')->send(new EmpiricalEmail($validatedData));
+        Mail::to('info@empiricaldev.com.au')
+            ->cc('adam@empiricaldev.com.au')
+            ->cc('daniel@empiricaldev.com.au')
+            ->send(new EmpiricalEmail($validatedData));
 
         $response = [
             'success' => true,
