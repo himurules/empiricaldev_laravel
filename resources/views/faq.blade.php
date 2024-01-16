@@ -39,7 +39,7 @@
                     </div>
                     <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
                         <div class="panel-body px-3 mb-4">
-                            <p>No, you don’t need a real estate agent when building a custom home. Most homebuyers who partner with our custom home builders don’t have a real estate agent. However, if you have one, we will compensate them for their services. Usually, most people find Highland Custom Homes through referrals, a Parade of Homes, the Park City Showcase of Homes, or online.</p>
+                            <p>No, you don’t need a real estate agent when building a custom home. Most homebuyers who partner with our custom home builders don’t have a real estate agent. However, if you have one, we will compensate them for their services. Usually, most people find Empirical Custom Homes through referrals, a Parade of Homes, the Park City Showcase of Homes, or online.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     </div>
                     <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                         <div class="panel-body px-3 mb-4">
-                            <p>The custom home building process starts by selecting a lot. The architect or designer will then create house plans to match project goals and square footage to the lot. You can partner with a custom home builder at any time during this process, but we usually get involved during design to ensure cohesiveness between all parties. If you don’t have a designer or architect, we can refer you to some of the best in the state. Inouye Design is one of our partners with years of experience working with us on many of our custom homes in the Promontory community of Park City. Inouye and other design teams aren’t in-house, but we know that their work meets our client’s high standards. We also welcome any architects or designers to the Highland team!</p>
+                            <p>The custom home building process starts by selecting a lot. The architect or designer will then create house plans to match project goals and square footage to the lot. You can partner with a custom home builder at any time during this process, but we usually get involved during design to ensure cohesiveness between all parties. If you don’t have a designer or architect, we can refer you to some of the best in the state. Inouye Design is one of our partners with years of experience working with us on many of our custom homes in the Promontory community of Park City. Inouye and other design teams aren’t in-house, but we know that their work meets our client’s high standards. We also welcome any architects or designers to the Empirical team!</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     </div>
                     <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                         <div class="panel-body px-3 mb-4">
-                            <p>The cost of custom homes depends on a range of variables, including location and size. While these numbers can change, one thing remains the same—Highland Custom Homes is a cost + builder. We provide complete transparency and honesty throughout the custom home building process. Working with our full-time accountant, you can receive regular updates to see where your money is going.</p>
+                            <p>The cost of custom homes depends on a range of variables, including location and size. While these numbers can change, one thing remains the same—Empirical Custom Homes is a cost + builder. We provide complete transparency and honesty throughout the custom home building process. Working with our full-time accountant, you can receive regular updates to see where your money is going.</p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                     </div>
                     <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
                         <div class="panel-body px-3 mb-4">
-                            <p>If you already have land, seek an architect or designer to customize a plan that fits your property. We will get involved to provide valuable input. If you don’t have a designer or architect, we can refer you to one. These teams aren’t in-house, but their work meets our high standards. We also welcome any architects or designers to the Highland team!</p>
+                            <p>If you already have land, seek an architect or designer to customize a plan that fits your property. We will get involved to provide valuable input. If you don’t have a designer or architect, we can refer you to one. These teams aren’t in-house, but their work meets our high standards. We also welcome any architects or designers to the Empirical team!</p>
                         </div>
                     </div>
                 </div>
