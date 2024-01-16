@@ -44,6 +44,11 @@ class HomeController extends Controller
         return view('contactus');
     }
 
+    public function faq()
+    {
+        return view('faq');
+    }
+
     public function requestQuote(Request $request)
     {
         $validatedData = $request->validate([

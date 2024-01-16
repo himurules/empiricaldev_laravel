@@ -45,6 +45,9 @@
                     <li class="nav-item {{ request()->is('our-process') ? 'active' : '' }}">
                         <a href="/our-process" class="nav-link">Our Process</a>
                     </li>
+                    <li class="nav-item {{ request()->is('faq') ? 'active' : '' }}">
+                        <a href="/faq" class="nav-link">FAQ</a>
+                    </li>
                     <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}">
                         <a href="/contact-us" class="nav-link">Contact</a>
                     </li>

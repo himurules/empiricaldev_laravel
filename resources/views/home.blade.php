@@ -1,4 +1,4 @@
-@extends('layouts.empirical')
+@extends('layouts.empirical_home')
 
 @section('title', 'Empirical Developments - Building Dreams')
 
@@ -7,61 +7,37 @@
 @section('keywords', 'Empirical Developments, construction company, new build homes, house extensions, house renovations, property development, landscaping, commercial construction, Sydney Area')
 
 @section('content')
-    <div class="hero-wrap">
-        <div class="home-slider owl-carousel">
-            <div class="slider-item" style="background-image:url({{ asset('storage/images/bg_11.jpg') }});">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-12 ftco-animate">
-                            <div class="text w-100 text-center">
-                                <h2>Thinking Of Building A New Home ?</h2>
-                                <h1 class="mb-3">We are here to help</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <main>
+        @include('includes/services')
 
-            <div class="slider-item" style="background-image:url({{ asset('storage/images/bg_22.jpg') }});">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-12 ftco-animate">
-                            <div class="text w-100 text-center">
-                                <h2>Building Dreams, One Home At A Time</h2>
-                                <h1 class="mb-3">Luxury &amp; Quality</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        @include('includes/about')
 
-            <div class="slider-item" style="background-image:url({{ asset('storage/images/bg_33.jpg') }});">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-12 ftco-animate">
-                            <div class="text w-100 text-center">
-                                <h2>Build Your Dream Home, Your way</h2>
-                                <h1 class="mb-3">Dreams to Reality</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        @include('includes/resources')
 
-    @include('includes/services')
+        @include('includes/projects')
 
-    @include('includes/about')
+        @include('includes/our_process')
 
-    @include('includes/resources')
-
-    @include('includes/projects')
-
-    @include('includes/our_process')
-
-    @include('includes/testimonials')
+        @include('includes/testimonials')
+    </main>
 @endsection
+@push('scripts')
+    <script>
+        // Array of text to be displayed
+        const textArray1 = ["Thinking Of Building A New Home ?", "Building Dreams, One Home At A Time", "Build Your Dream Home, Your way"];
+        const textArray2 = ["We are here to help", "Luxury & Quality", "Dreams to Reality"];
+
+        // Index to keep track of current text
+        let index = 0;
+
+        // Function to change the text every 5 seconds
+        function changeText() {
+            document.getElementById("text1").textContent = textArray1[index];
+            document.getElementById("text2").textContent = textArray2[index];
+            index = (index + 1) % textArray1.length;
+        }
+
+        // Call the function every 5 seconds
+        setInterval(changeText, 5000);
+    </script>
+@endpush

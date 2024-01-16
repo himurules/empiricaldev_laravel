@@ -21,5 +21,6 @@ Route::get('/our-team', [HomeController::class, 'ourteam']);
 Route::get('/our-projects', [HomeController::class, 'projects']);
 Route::get('/our-process', [HomeController::class, 'ourprocess']);
 Route::get('/contact-us', [HomeController::class, 'contactus']);
+Route::get('/faq', [HomeController::class, 'faq']);
 
 Route::post('/request-a-quote', [HomeController::class, 'requestQuote']);

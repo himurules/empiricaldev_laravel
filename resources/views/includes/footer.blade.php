@@ -43,6 +43,7 @@
                                         <h2 class="footer-heading">About</h2>
                                         <ul class="list-unstyled">
                                             <li><a href="/our-team" class="py-1 d-block">Team</a></li>
+                                            <li><a href="/faq" class="py-1 d-block">FAQ</a></li>
                                             <li><a href="#" class="py-1 d-block">Terms and Conditions</a></li>
                                             <li><a href="#" class="py-1 d-block">Privacy Policy</a></li>
                                         </ul>
