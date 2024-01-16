@@ -11066,6 +11066,15 @@ textarea.form-control {
   object-fit: cover;
 }
 
+.hero-wrap-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .hero-wrap .overlay {
   position: absolute;
   top: 0;
@@ -11077,6 +11086,27 @@ textarea.form-control {
 
 #background-video {
   filter: blur(1px); /* Adjust the blur value as per your preference */
+}
+
+#background-image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #background-video {
+    display: block;
+  }
+  #background-image {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #background-video {
+    display: none;
+  }
+  #background-image {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

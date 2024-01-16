@@ -2,6 +2,9 @@
     <video autoplay muted loop id="background-video">
         <source src="{{ asset('storage/images/demo.webm') }}" type="video/webm">
     </video>
+
+    <img src="{{ asset('storage/images/bg_11.jpg') }}" id="background-image"  alt="" class="hero-wrap-img">
+
     <div class="overlay"></div>
     <!-- rest of the content -->
     <header class="header-home">
