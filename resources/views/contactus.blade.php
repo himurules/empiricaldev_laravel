@@ -9,7 +9,6 @@
 @section('sub-title', 'Contact Us')
 
 @section('content')
-    @include('includes/sub_header')
 
     <section class="ftco-section">
         <div class="container">

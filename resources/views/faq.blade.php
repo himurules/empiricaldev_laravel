@@ -7,7 +7,6 @@
 @section('sub-title', 'Frequently Asked Questions')
 
 @section('content')
-    @include('includes/sub_header')
 
     <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
         <div class="container">

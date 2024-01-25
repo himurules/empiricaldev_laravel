@@ -45,19 +45,35 @@
 <script src="{{ asset('storage/js/scrollax.min.js') }}"></script>
 <script src="{{ asset('storage/js/main.js') }}"></script>
 <script>
-    const element = document.querySelector('.call-link');
-
+    const element1 = document.querySelector('.call-link');
+    const element2 = document.querySelector('.call-link-2');
     let shaking = false;
 
     setInterval(() => {
-        if(shaking) {
-            element.classList.remove('shaking');
+        if (shaking) {
+            element1.classList.remove('shaking');
+            element2.classList.remove('shaking');
             shaking = false;
         } else {
-            element.classList.add('shaking');
+            element1.classList.add('shaking');
+            element2.classList.add('shaking');
             shaking = true;
         }
     }, 2000);
+
+    window.addEventListener('scroll', handleScroll);
+
+    function handleScroll() {
+        if(window.pageYOffset > 100) {
+            //hide the navigation
+            $('#main').addClass('d-none');
+            $('#scrolled').removeClass('d-none');
+        } else {
+            //show the navaigation
+            $('#main').removeClass('d-none');
+            $('#scrolled').addClass('d-none');
+        }
+    }
 </script>
 @stack('scripts')
 </body>

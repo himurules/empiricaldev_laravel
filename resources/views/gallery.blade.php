@@ -1,12 +1,12 @@
 @extends('layouts.empirical')
 
-@section('title', 'Our Projects - Empirical Developments')
+@section('title', 'Our Gallery - Empirical Developments')
 
 @section('description', 'Explore the impressive portfolio of projects completed by Empirical Developments in the Sydney Area. From residential homes to commercial constructions, we have a track record of delivering high-quality results. Browse our diverse range of projects and get inspired today.')
 
 @section('keywords', 'Empirical Developments, projects, portfolio, Sydney Area, residential homes, commercial constructions, high-quality results')
 
-@section('sub-title', 'Our Projects')
+@section('sub-title', 'Our Gallery')
 
 @section('content')
 
@@ -19,12 +19,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -33,12 +27,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -47,12 +35,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -62,12 +44,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -76,12 +52,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -90,12 +60,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -105,12 +69,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -119,12 +77,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
@@ -133,12 +85,6 @@
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
-                        <div class="desc w-100 px-4">
-                            <div class="text w-100 mb-3">
-                                <span>Building</span>
-                                <h2><a href="work-single.html">College Health Profession</a></h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -19,6 +19,7 @@ Route::get('/about-us', [HomeController::class, 'aboutus']);
 Route::get('/our-services', [HomeController::class, 'services']);
 Route::get('/our-team', [HomeController::class, 'ourteam']);
 Route::get('/our-projects', [HomeController::class, 'projects']);
+Route::get('/our-gallery', [HomeController::class, 'gallery']);
 Route::get('/our-process', [HomeController::class, 'ourprocess']);
 Route::get('/contact-us', [HomeController::class, 'contactus']);
 Route::get('/faq', [HomeController::class, 'faq']);

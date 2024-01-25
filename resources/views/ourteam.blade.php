@@ -9,7 +9,6 @@
 @section('sub-title', 'Our Team')
 
 @section('content')
-    @include('includes/sub_header')
 
     <section class="ftco-section">
         <div class="container-fluid px-md-5">

@@ -34,6 +34,11 @@ class HomeController extends Controller
         return view('projects');
     }
 
+    public function gallery()
+    {
+        return view('gallery');
+    }
+
     public function ourprocess()
     {
         return view('ourprocess');

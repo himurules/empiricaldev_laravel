@@ -9,7 +9,6 @@
 @section('sub-title', 'About Us')
 
 @section('content')
-    @include('includes/sub_header')
 
     @include('includes/about')
 

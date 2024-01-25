@@ -9,7 +9,6 @@
 @section('sub-title', 'Our Process')
 
 @section('content')
-    @include('includes/sub_header')
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
         <div class="container">
