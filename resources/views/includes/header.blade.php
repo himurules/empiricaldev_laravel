@@ -77,14 +77,14 @@
                     <div class="col-6 col-md-2 d-flex justify-content-center pt-5">
                         <div class="phone-number h5 pt-2">
                             <span class="fa fa-phone call-link-2"></span>
-                            <a href="tel:1300740240" style="color: #a9b920">1300 740 240</a>
+                            <a href="tel:1300740240">1300 740 240</a>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="container">
+        <div class="container" style="margin-top: 210px;">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
                     <p class="breadcrumbs mb-2"><span class="mr-2"><a href="/home">Home <i

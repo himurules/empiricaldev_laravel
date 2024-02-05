@@ -61,18 +61,32 @@
         }
     }, 2000);
 
+    let prevScrollPos = window.scrollY;
+
     window.addEventListener('scroll', handleScroll);
 
     function handleScroll() {
-        if(window.pageYOffset > 100) {
-            //hide the navigation
+        const currentScrollPos = window.scrollY;
+        const header = document.querySelector('.header-home');
+
+        if (currentScrollPos > prevScrollPos) {
+            // Scrolling down
+            // hide the navigation
             $('#main').addClass('d-none');
             $('#scrolled').removeClass('d-none');
         } else {
-            //show the navaigation
+            // Scrolling up
+            // show the navigation
             $('#main').removeClass('d-none');
             $('#scrolled').addClass('d-none');
+            if(currentScrollPos > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
         }
+
+        prevScrollPos = currentScrollPos;
     }
 </script>
 @stack('scripts')

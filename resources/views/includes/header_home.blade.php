@@ -81,14 +81,14 @@
                 <div class="col-6 col-md-2 d-flex justify-content-center pt-5">
                     <div class="phone-number h5 pt-2">
                         <span class="fa fa-phone call-link-2"></span>
-                        <a href="tel:1300740240" style="color: #a9b920">1300 740 240</a>
+                        <a href="tel:1300740240">1300 740 240</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="container" style="padding-top: 156px;">
+    <div class="container" style="padding-top: 300px;">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
             <div class="col-md-12 ftco-animate">
                 <div class="text w-100 text-center navbar-brand">

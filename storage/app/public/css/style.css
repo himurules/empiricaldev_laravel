@@ -8799,12 +8799,23 @@ header {
 }
 
 .header-home {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   background: transparent;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header.scrolled {
   backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.scrolled {
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 body {
