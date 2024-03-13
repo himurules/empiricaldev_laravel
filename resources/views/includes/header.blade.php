@@ -9,7 +9,7 @@
                 <div class="row justify-content-between">
                     <div class="col-6 col-md-2 pt-1 text-center">
                         <a class="navbar-brand" href="/">
-                            <img src="{{ asset('storage/images/icons/logo.png') }}" alt="IMG" style="margin-right: 10px;">
+                            <img src="{{ asset('storage/images/icons/logo.png?v=1') }}" alt="IMG" style="margin-right: 10px;">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 pt-5 navbar-brand text-center d-none d-md-block">
@@ -62,7 +62,7 @@
                 <div class="row justify-content-between">
                     <div class="col-6 col-md-2">
                         <a class="navbar-brand" href="/">
-                            <img src="{{ asset('storage/images/icons/logo.png') }}" alt="IMG" style="margin-right: 10px;">
+                            <img src="{{ asset('storage/images/icons/logo.png?v=1') }}" alt="IMG" style="margin-right: 10px;">
                         </a>
                     </div>
                     <div class="col-6 col-md-2 d-flex justify-content-center">
