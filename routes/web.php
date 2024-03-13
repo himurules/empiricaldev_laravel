@@ -15,13 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'home']);
-Route::get('/about-us', [HomeController::class, 'aboutus']);
-Route::get('/our-services', [HomeController::class, 'services']);
-Route::get('/our-team', [HomeController::class, 'ourteam']);
-Route::get('/our-projects', [HomeController::class, 'projects']);
-Route::get('/our-gallery', [HomeController::class, 'gallery']);
-Route::get('/our-process', [HomeController::class, 'ourprocess']);
-Route::get('/contact-us', [HomeController::class, 'contactus']);
+Route::get('/about-us', [HomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/our-services', [HomeController::class, 'services'])->name('services');
+Route::get('/our-projects', [HomeController::class, 'projects'])->name('projects');
+Route::get('/project-details/{projectName}', [HomeController::class, 'projectsdetails'])->name('projectsdetails');
+Route::get('/our-gallery', [HomeController::class, 'gallery'])->name('media');
+Route::get('/contact-us', [HomeController::class, 'contactus'])->name('contactus');
 Route::get('/faq', [HomeController::class, 'faq']);
 
 Route::post('/request-a-quote', [HomeController::class, 'requestQuote']);
+Route::post('/request-a-contact', [HomeController::class, 'requestContact']);

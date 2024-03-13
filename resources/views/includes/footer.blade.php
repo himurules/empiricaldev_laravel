@@ -1,67 +1,56 @@
 <footer class="footer">
     <div class="container-fluid px-lg-5">
         <div class="row">
-            <div class="col-md-8 py-5">
+            <div class="col-md-6 py-5">
                 <div class="row">
-                    <div class="col-md-4 mb-md-0 mb-4">
-                        <h2 class="footer-heading">About us</h2>
-                        <p>
-                            Empirical Developments is a family owned, full-service custom home building service
-                            operating all over Sydney Area.
-                        </p>
-                        <ul class="ftco-footer-social p-0">
-                            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
-                                                        title="Youtube"><span class="ion-logo-youtube"></span></a></li>
-                            <li class="ftco-animate"><a href="https://www.facebook.com/empiricaldevelopments"
-                                                        data-toggle="tooltip" data-placement="top"
-                                                        title="Facebook" target="_new"><span
-                                        class="ion-logo-facebook"></span></a>
-                            </li>
-                            <li class="ftco-animate"><a href="https://www.instagram.com/empirical_developments"
-                                                        data-toggle="tooltip" data-placement="top"
-                                                        title="Instagram" target="_new"><span
-                                        class="ion-logo-instagram"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row justify-content-center">
-                            <div class="col-md-12 col-lg-10">
-                                <div class="row">
-                                    <div class="col-md-6 mb-md-0 mb-4">
-                                        <h2 class="footer-heading">Services</h2>
-                                        <ul class="list-unstyled">
-                                            <li><a href="/our-services" class="py-1 d-block">New Build Homes</a></li>
-                                            <li><a href="/our-services" class="py-1 d-block">House Extensions</a></li>
-                                            <li><a href="/our-services" class="py-1 d-block">House Renovations</a></li>
-                                            <li><a href="/our-services" class="py-1 d-block">Property Development</a></li>
-                                            <li><a href="/our-services" class="py-1 d-block">Landscaping</a></li>
-                                            <li><a href="/our-services" class="py-1 d-block">Commercial Construction</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6 mb-md-0 mb-4">
-                                        <h2 class="footer-heading">About</h2>
-                                        <ul class="list-unstyled">
-                                            <li><a href="/our-team" class="py-1 d-block">Team</a></li>
-                                            <li><a href="/faq" class="py-1 d-block">FAQ</a></li>
-                                            <li><a href="#" class="py-1 d-block">Terms and Conditions</a></li>
-                                            <li><a href="#" class="py-1 d-block">Privacy Policy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p>
+                        <a href="/">
+                            <img src="{{ asset('storage/images/icons/logo_scrolled.png') }}" alt="IMG">
+                        </a>
+                    </p>
                 </div>
-                <div class="row mt-md-5">
-                    <div class="col-md-12">
-                        <p class="copyright">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                            All rights reserved
-                    </div>
+                <div class="row">
+                    <p>
+                        <a href="tel://1300740240">1300 740 240</a> | <a href="mailto:info@empiricaldev.com.au">info@empiricaldev.com.au</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <ul class="ftco-footer-social p-0">
+                        <li><a href="https://www.facebook.com/empiricaldevelopments"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Facebook" target="_new"><span
+                                    class="ion-logo-facebook"></span></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/empirical_developments"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Instagram" target="_new"><span
+                                    class="ion-logo-instagram"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h2 class="footer-heading">Licenses</h2>
+                        </li>
+                        <li>
+                            <p>NSW Builder License 368631C</p>
+                        </li>
+                        <li>
+                            <h2 class="footer-heading">Memberships</h2>
+                        </li>
+                        <li>
+                            <p>Master Builders Association NS | ABN 34 637 544 908</p>
+                        </li>
+                        <li>
+                            <p>Empirical Development PTY Limited | Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                                All rights reserved
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4 py-md-5 py-4 aside-stretch-right pl-lg-5">
+            <div class="col-md-6 py-md-5 py-4 aside-stretch-right pl-lg-5">
                 <h2 class="footer-heading">Request A Quote</h2>
                 <!-- show the success message once the message has been sent -->
                 <div class="alert alert-success" style="display: none;" id="quote-success">
@@ -83,7 +72,8 @@
                         <input type="text" class="form-control" placeholder="Subject" name="subject" required>
                     </div>
                     <div class="form-group">
-                        <textarea id="" cols="30" rows="3" class="form-control" placeholder="Message" required name="message"></textarea>
+                        <textarea id="" cols="30" rows="3" class="form-control" placeholder="Message" required
+                                  name="message"></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="form-control submit px-3">Send</button>
@@ -120,7 +110,7 @@
                 .then(data => {
                     // Handle the response from the server
                     console.log(data);
-                    if(data.success) {
+                    if (data.success) {
                         // hide the form
                         $('#quote-form').hide();
                         //show success message

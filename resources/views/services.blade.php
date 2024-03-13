@@ -19,9 +19,12 @@
                             <span class="flaticon-hook"></span>
                         </div>
                         <div class="media-body p-2 mt-3">
-                            <h3 class="heading">New Build Homes</h3>
+                            <h3 class="heading">New Builds</h3>
                             <p>
-                                We offer comprehensive turnkey solutions for constructing new build homes. Our collaborative approach ensures a strong, well-informed team consisting of clients and architects, minimizing surprises. Whether you desire a traditional or contemporary new build home in Huddersfield, we are here to assist.
+                                We've got you covered with our comprehensive solutions for building new homes. Our approach
+                                is all about teamwork, keeping everyone in the loop, and making sure there are no surprises.
+                                Whether you have a taste for traditional or contemporary styles, we're here to help you create
+                                your dream home.
                             </p>
                         </div>
                     </div>
@@ -32,9 +35,12 @@
                             <span class="flaticon-skyline"></span>
                         </div>
                         <div class="media-body p-2 mt-3">
-                            <h3 class="heading">House Extensions</h3>
+                            <h3 class="heading">Home Extensions</h3>
                             <p>
-                                Home extensions can often be a cost-effective and stress-free alternative to moving. With our guidance, you can optimize the layout and enhance the functionality of your space. We work with talented architects who can assist with design, planning permission, and detailed plans, ensuring a seamless house extension experience.
+                                Considering a home extension can be a budget-friendly and hassle-free option instead of
+                                relocating or building from scratch. With our support, you can improve the layout and
+                                functionality of your space. Our team collaborates with skilled architects who can help with
+                                design, planning permission, and detailed plans, ensuring a smooth house extension process.
                             </p>
                         </div>
                     </div>
@@ -45,9 +51,12 @@
                             <span class="flaticon-stairs"></span>
                         </div>
                         <div class="media-body p-2 mt-3">
-                            <h3 class="heading">House Renovations</h3>
+                            <h3 class="heading">Home Renovations</h3>
                             <p>
-                                Our expertise extends to rejuvenating tired homes through renovation projects. Our building techniques are respectful of the original structure. Whether you seek structural changes or a modernization update, the possibilities for transforming your house are endless.
+                                Looking to breathe new life into your home? We've got you covered with our expertise in
+                                reviving tired homes through renovation projects. We always ensure to respect the original
+                                structure when we work on your home. Whether you're after structural changes or a
+                                modernisation update, the options for transforming your home are endless!
                             </p>
                         </div>
                     </div>
@@ -57,25 +66,16 @@
                 <div class="col-md-4 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
                     <div class="media block-6 d-block text-center pt-md-4">
                         <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-hook"></span>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Property Development</h3>
-                            <p>
-                                We are actively seeking properties with development potential. Also, land which may pose the opportunity for new build projects. We will also consider opportunities which are further afield.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
-                    <div class="media block-6 d-block text-center pt-md-4">
-                        <div class="icon d-flex justify-content-center align-items-center">
                             <span class="flaticon-home"></span>
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Landscaping</h3>
                             <p>
-                                Hard landscaping projects create an interesting outside area to your property and will add to its value.  You can include Paved Areas, Bound Aggregate Paths with Timber, Concrete or Brick Edging, Rock & Stone Features, Pergolas & Shelters, Ponds & Water Features.
+                                Landscaping is a paramount component to bringing your outdoor space to life and boost the
+                                value of your property. You have the option to include paved areas, bound aggregate paths with
+                                timber, concrete or brick edging, rock and stone features, pergolas and shelters, as well as
+                                greenery, ponds and water features. Landscaping is all about creating a beautiful and functional
+                                outdoor environment, and the possibilities are endless.
                             </p>
                         </div>
                     </div>
@@ -88,49 +88,15 @@
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Commercial Construction</h3>
                             <p>
-                                Building services to the commercial sector are within our scope. We are capable of delivering small to medium-sized projects, extensions to commercial premises, complete construction of small industrial units, change of use on commercial premises and hard landscaping to external areas.
+                                Our company provides building services to the commercial sector, encompassing a wide range
+                                of capabilities. These include the delivery of small to medium-sized projects, extensions to
+                                existing commercial buildings, change of use on commercial buildings, and soft and hard
+                                landscaping to external areas.
                             </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-                    <div class="py-3 d-flex">
-                        <div class="icon">
-                            <span class="flaticon-engineer"></span>
-                        </div>
-                        <div class="text">
-                            <h3>Expert &amp; Professional</h3>
-                            <p class="mb-0">Unparalleled Expertise and Professionalism, Guiding You Towards Success.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-                    <div class="py-3 d-flex">
-                        <div class="icon">
-                            <span class="flaticon-engineer-1"></span>
-                        </div>
-                        <div class="text">
-                            <h3>High Quality Work</h3>
-                            <p class="mb-0">Excellence in Every Detail: Delivering High-Quality Workmanship.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
-                    <div class="py-3 d-flex">
-                        <div class="icon">
-                            <span class="flaticon-engineer-2"></span>
-                        </div>
-                        <div class="text">
-                            <h3>Support &amp; Help</h3>
-                            <p class="mb-0">Reliable Support and Assistance, Just a Click Away.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    @include('includes/testimonials')
 @endsection

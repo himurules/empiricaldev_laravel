@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center mt-5 mb-5 pb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2>Our Process</h2>
+                <h2>OUR PROCESS</h2>
             </div>
         </div>
         <div class="row d-flex">

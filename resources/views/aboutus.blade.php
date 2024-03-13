@@ -11,8 +11,4 @@
 @section('content')
 
     @include('includes/about')
-
-    @include('includes/resources')
-
-    @include('includes/testimonials')
 @endsection

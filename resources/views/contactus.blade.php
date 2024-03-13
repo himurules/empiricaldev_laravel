@@ -16,7 +16,7 @@
                 <div class="col-md-12">
                     <div class="wrapper">
                         <div class="row no-gutters mb-5">
-                            <div class="col-md-7">
+                            <div class="col-md-12">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
                                     <h3 class="mb-4">Contact Us</h3>
                                     <div id="form-message-warning" class="mb-4" style="display:none;">
@@ -30,30 +30,77 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="label" for="username">Full Name</label>
-                                                    <input type="text" class="form-control" name="username" id="username"
-                                                           placeholder="Name" required>
+                                                    <label class="label" for="username">*Full Name</label>
+                                                    <input type="text" class="form-control" name="username" id="username" placeholder="Name" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="label" for="email">Email Address</label>
-                                                    <input type="email" class="form-control" name="email" id="email"
-                                                           placeholder="Email" required>
+                                                    <label class="label" for="email">*Email Address</label>
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="phone">*Phone</label>
+                                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="project-address">What is the address of your project?</label>
+                                                    <input type="text" class="form-control" name="project_address" id="project-address" placeholder="Project Address">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="start-date">Ideal Start Date</label>
+                                                    <input type="date" class="form-control" name="start_date" id="start-date">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label class="label" for="subject">Subject</label>
-                                                    <input type="text" class="form-control" name="subject" id="subject"
-                                                           placeholder="Subject" required>
+                                                    <label class="label" for="scope">*Brief description of the scope of the project</label>
+                                                    <textarea name="scope" class="form-control" id="scope" cols="30" rows="4" placeholder="Describe the project scope" required></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label class="label" for="#">Message</label>
-                                                    <textarea name="message" class="form-control" id="message" cols="30"
-                                                              rows="4" placeholder="Message" required></textarea>
+                                                    <label>Are you currently working with an architect or designer?</label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="working_with_designer" id="designerYes" value="yes">
+                                                        <label class="form-check-label" for="designerYes">Yes</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="working_with_designer" id="designerNo" value="no" checked>
+                                                        <label class="form-check-label" for="designerNo">No</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Have you acquired plans and designs for the project?</label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="plans_acquired" id="plansYes" value="yes">
+                                                        <label class="form-check-label" for="plansYes">Yes</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="plans_acquired" id="plansNo" value="no" checked>
+                                                        <label class="form-check-label" for="plansNo">No</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Do you require council approval, and if so, have you obtained it?</label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="council_approval" id="approvalYes" value="yes">
+                                                        <label class="form-check-label" for="approvalYes">Yes</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="council_approval" id="approvalNo" value="no" checked>
+                                                        <label class="form-check-label" for="approvalNo">No</label>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -66,10 +113,6 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-md-5 d-flex align-items-stretch">
-                                <div id="map">
-                                </div>
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
@@ -78,7 +121,7 @@
                                         <span class="fa fa-map-marker"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Address:</span> 59 George St, Burwood NSW 2134, Australia</p>
+                                        <p><span>ABN:</span> 34 637 544 908</p>
                                     </div>
                                 </div>
                             </div>
@@ -111,18 +154,7 @@
     </section>
 @endsection
 @push('scripts')
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW--0pnIrGT905jh0MsS6orgJ-7Thc-tk&sensor=false"></script>
     <script>
-        $(document).ready(function () {
-            initMap();
-        });
-
-        function initMap() {
-            let map = new google.maps.Map(document.getElementById("map"), {
-                center: {lat: -33.8779, lng: 151.1036},
-                zoom: 12,
-            });
-        }
         const form = document.querySelector('.contact-us-form');
 
         form.addEventListener('submit', (e) => {
@@ -130,7 +162,7 @@
 
             const formData = new FormData(form);
 
-            fetch('/request-a-quote', {
+            fetch('/request-a-contact', {
                 method: 'POST',
                 body: formData
             })

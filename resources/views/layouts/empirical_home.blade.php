@@ -45,49 +45,41 @@
 <script src="{{ asset('storage/js/scrollax.min.js') }}"></script>
 <script src="{{ asset('storage/js/main.js') }}"></script>
 <script>
-    const element1 = document.querySelector('.call-link');
-    const element2 = document.querySelector('.call-link-2');
-    let shaking = false;
+    let prevScrollPos = window.scrollY; // Define this outside to maintain its state
 
-    setInterval(() => {
-        if (shaking) {
-            element1.classList.remove('shaking');
-            element2.classList.remove('shaking');
-            shaking = false;
-        } else {
-            element1.classList.add('shaking');
-            element2.classList.add('shaking');
-            shaking = true;
-        }
-    }, 2000);
-
-    let prevScrollPos = window.scrollY;
-
-    window.addEventListener('scroll', handleScroll);
-
-    function handleScroll() {
+    function handleScroll(event) {
+        handleMenuDropDown(event);
         const currentScrollPos = window.scrollY;
         const header = document.querySelector('.header-home');
 
-        if (currentScrollPos > prevScrollPos) {
-            // Scrolling down
-            // hide the navigation
+        if (currentScrollPos > 100) {
             $('#main').addClass('d-none');
             $('#scrolled').removeClass('d-none');
-        } else {
-            // Scrolling up
-            // show the navigation
-            $('#main').removeClass('d-none');
-            $('#scrolled').addClass('d-none');
-            if(currentScrollPos > 100) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
         }
 
-        prevScrollPos = currentScrollPos;
+        if (currentScrollPos < 100) {
+            $('#scrolled').addClass('d-none');
+            $('#main').removeClass('d-none');
+        }
+
+        prevScrollPos = currentScrollPos; // Update the previous scroll position
     }
+
+    // Improved handleMenuDropDown function
+    function handleMenuDropDown(event) { // Now it correctly takes an event parameter
+        let clickover = $(event.target);
+        let $navbar = $(".navbar-collapse");
+        let _opened = $navbar.hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler") && !clickover.closest('.navbar-collapse').length) {
+            $navbar.collapse('hide');
+        }
+    }
+
+    // Attach the click event listener to the document
+    $(document).on('click', handleMenuDropDown);
+
+    // Attach the scroll event listener to window
+    $(window).on('scroll', handleScroll);
 </script>
 @stack('scripts')
 </body>

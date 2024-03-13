@@ -8794,7 +8794,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 8000;
   background: transparent;
 }
 
@@ -8803,19 +8803,19 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 800;
   background: transparent;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header.scrolled {
-  backdrop-filter: blur(5px);
-  background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.5) 38%, transparent);
+  transform-style: preserve-3d;
 }
 
 .scrolled {
-  backdrop-filter: blur(5px);
-  background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.5) 38%, transparent);
+  transform-style: preserve-3d;
 }
 
 body {
@@ -8983,7 +8983,6 @@ h1, h2, h3, h4, h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -8995,7 +8994,7 @@ h1, h2, h3, h4, h5,
 }
 
 .navbar-brand {
-  color: #000000;
+  color: #fff;
   font-weight: 800;
   font-size: 30px;
   line-height: 1;

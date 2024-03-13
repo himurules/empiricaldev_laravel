@@ -354,6 +354,13 @@
                                     <h3>The following user is trying to reach out to you</h3>
                                     <p>Full name: {{ $user['username'] }}</p>
                                     <p>Email: {{ $user['email'] }}</p>
+                                    <p>Phone: {{ $user['phone'] ?? 'Not provided' }}</p>
+                                    <p>Project Address: {{ $user['project_address'] ?? 'Not provided' }}</p>
+                                    <p>Ideal Start Date: {{ $user['start_date'] ?? 'Not provided' }}</p>
+                                    <p>Brief Description of the Project Scope: {{ $user['scope'] ?? 'Not provided'}}</p>
+                                    <p>Working with an Architect or Designer: {{ isset($user['plans_acquired']) ? ($user['working_with_designer'] == 'yes' ? 'Yes' : 'No') : 'Not Provided' }}</p>
+                                    <p>Plans and Designs Acquired: {{ isset($user['plans_acquired']) ? ($user['plans_acquired'] == 'yes' ? 'Yes' : 'No') : 'Not Provided' }}</p>
+                                    <p>Council Approval Obtained: {{ isset($user['council_approval']) ? ($user['council_approval'] == 'yes' ? 'Yes' : 'No') : 'Not Provided' }}</p>
                                     <p>Subject: {{ $user['subject'] }}</p>
                                     <p>Message: {{ $user['message'] }}</p>
                                 </div>
