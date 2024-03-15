@@ -15,16 +15,14 @@
                     <div class="col-6 col-md-4 pt-5 navbar-brand text-center d-none d-md-block">
                         <span>LUXURY</span>HOME<span>BUILDERS</span>
                     </div>
-                    <div class="col-6 col-md-2 d-flex justify-content-center">
+                    <div class="col-4 col-md-2 pt-5 navbar-brand text-center d-md-block justify-content-center">
                         <!-- START nav -->
-                        <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+                        <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light pt-2">
                             <div class="container">
-
-                                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#ftco-nav"
-                                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                                <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
                                     <span class="fa fa-bars"></span> Menu
                                 </button>
-                                <div class="collapse navbar-collapse" id="ftco-nav">
+                                <div class="dropdown-menu collapse navbar-collapse">
                                     <ul class="navbar-nav mr-auto">
                                         <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
                                             <a href="/" class="nav-link">Home</a>
@@ -65,16 +63,14 @@
                             <img src="{{ asset('storage/images/icons/logo.png?v=1') }}" alt="IMG" style="margin-right: 10px;">
                         </a>
                     </div>
-                    <div class="col-6 col-md-2 d-flex justify-content-center">
+                    <div class="col-4 col-md-2 pt-5 navbar-brand text-center d-md-block justify-content-center">
                         <!-- START nav -->
-                        <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+                        <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light pt-2">
                             <div class="container">
-
-                                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#ftco-nav"
-                                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                                <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
                                     <span class="fa fa-bars"></span> Menu
                                 </button>
-                                <div class="collapse navbar-collapse" id="ftco-nav">
+                                <div class="dropdown-menu collapse navbar-collapse">
                                     <ul class="navbar-nav mr-auto">
                                         <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
                                             <a href="/" class="nav-link">Home</a>

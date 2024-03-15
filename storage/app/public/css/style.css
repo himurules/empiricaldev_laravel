@@ -8857,11 +8857,15 @@ h1, h2, h3, h4, h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: transparent !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
   }
+}
+.ftco-navbar-light .dropdown-menu {
+  background-color: black;
+  text-align: center;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav {
@@ -8870,6 +8874,7 @@ h1, h2, h3, h4, h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 14px;
+  text-align: center;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
   padding-left: 30px;

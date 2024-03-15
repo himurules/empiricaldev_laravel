@@ -58,24 +58,24 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-2.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-2.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-11.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-11.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-3.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-3.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-12.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-12.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-4.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-4.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-13.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-13.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
@@ -84,24 +84,24 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-5.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-5.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-14.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-14.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-6.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-6.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-5.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-5.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-7.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-7.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-16.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-16.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
@@ -110,24 +110,24 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-8.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-8.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-17.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-17.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-9.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-9.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-18.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-18.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 pt-2 pb-2">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-10.jpg') }});height: 300px;">
-                        <a href="{{ asset('storage/images/work-10.jpg') }}"
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-19.jpg') }});height: 300px;">
+                        <a href="{{ asset('storage/images/work-org-19.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>

@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" href="{{ asset('storage/css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('storage/css/icomoon.css') }}">
-    <link rel="stylesheet" href="{{ asset('storage/css/style.css?v=1.1') }}">
+    <link rel="stylesheet" href="{{ asset('storage/css/style.css?v=1.2') }}">
 </head>
 <body class="pt-0">
 
@@ -45,41 +45,41 @@
 <script src="{{ asset('storage/js/scrollax.min.js') }}"></script>
 <script src="{{ asset('storage/js/main.js') }}"></script>
 <script>
-    let prevScrollPos = window.scrollY; // Define this outside to maintain its state
+    $(document).ready(function() {
+        let prevScrollPos = window.scrollY; // Define this outside to maintain its state
 
-    function handleScroll(event) {
-        handleMenuDropDown(event);
-        const currentScrollPos = window.scrollY;
-        const header = document.querySelector('.header-home');
-
-        if (currentScrollPos > 100) {
-            $('#main').addClass('d-none');
-            $('#scrolled').removeClass('d-none');
+        function handleScroll() {
+            toggleMenuOnScroll();
+            const currentScrollPos = window.scrollY;
+            if (currentScrollPos > 100) {
+                $('#main').addClass('d-none');
+                $('#scrolled').removeClass('d-none');
+            } else {
+                $('#scrolled').addClass('d-none');
+                $('#main').removeClass('d-none');
+            }
+            prevScrollPos = currentScrollPos; // Update the previous scroll position
         }
 
-        if (currentScrollPos < 100) {
-            $('#scrolled').addClass('d-none');
-            $('#main').removeClass('d-none');
+        // This function checks the visibility of the navbar-toggler and collapses the menu if it's open
+        function toggleMenuOnScroll() {
+            $('.navbar-toggler').each(function() {
+                const navbarToggler = $(this);
+                // Assuming each navbar-toggler controls a corresponding navbar-collapse
+                // We find the closest parent that contains both and then find navbar-collapse within it
+                const navbarCollapse = navbarToggler.closest('.container, .navbar, .nav, .row, .header').find('.navbar-collapse');
+
+                console.log(navbarToggler.is(':visible'));
+                // Check if this navbar-toggler is visible and the menu is expanded
+                if (navbarToggler.is(':visible') && navbarCollapse.hasClass('show')) {
+                    navbarToggler.trigger('click'); // Simulate a click to collapse the menu
+                }
+            });
         }
 
-        prevScrollPos = currentScrollPos; // Update the previous scroll position
-    }
-
-    // Improved handleMenuDropDown function
-    function handleMenuDropDown(event) { // Now it correctly takes an event parameter
-        let clickover = $(event.target);
-        let $navbar = $(".navbar-collapse");
-        let _opened = $navbar.hasClass("show");
-        if (_opened === true && !clickover.hasClass("navbar-toggler") && !clickover.closest('.navbar-collapse').length) {
-            $navbar.collapse('hide');
-        }
-    }
-
-    // Attach the click event listener to the document
-    $(document).on('click', handleMenuDropDown);
-
-    // Attach the scroll event listener to window
-    $(window).on('scroll', handleScroll);
+        // Attach the scroll event listener to window
+        $(window).on('scroll', handleScroll);
+    });
 </script>
 @stack('scripts')
 </body>
