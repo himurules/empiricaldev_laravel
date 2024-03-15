@@ -22,7 +22,7 @@
 
     <link rel="stylesheet" href="{{ asset('storage/css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('storage/css/icomoon.css') }}">
-    <link rel="stylesheet" href="{{ asset('storage/css/style.css?v=1.2') }}">
+    <link rel="stylesheet" href="{{ asset('storage/css/style.css?v=1.3') }}">
 </head>
 <body class="pt-0">
 
