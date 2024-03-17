@@ -18,7 +18,7 @@
                 <div class="col-6 col-md-4 pt-5 navbar-brand text-center d-none d-md-block">
                     <span>LUXURY</span>HOME<span>BUILDERS</span>
                 </div>
-                <div class="col-6 col-md-2 pt-5 navbar-brand text-center d-md-block justify-content-center">
+                <div class="col-4 col-md-2 pt-5 navbar-brand text-center d-md-block justify-content-center">
                     <!-- START nav -->
                     <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light pt-2">
                         <div class="container">
