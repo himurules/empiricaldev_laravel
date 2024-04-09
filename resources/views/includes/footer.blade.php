@@ -35,18 +35,6 @@
                 <div class="row justify-content-center">
                     <ul class="list-unstyled text-center"> <!-- Add 'text-center' here if needed -->
                         <li>
-                            <p class="footer-heading">Licenses</p>
-                        </li>
-                        <li>
-                            <p>NSW Builder License 368631C</p>
-                        </li>
-                        <li>
-                            <p class="footer-heading">Memberships</p>
-                        </li>
-                        <li>
-                            <p>Master Builders Association NS | ABN 34 637 544 908</p>
-                        </li>
-                        <li>
                             <p>Empirical Development PTY Limited | Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                                 All rights reserved
                             </p>
