@@ -14,7 +14,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                 What types of projects do you handle?
                             </a>
                         </h3>
@@ -32,7 +32,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                 Are you willing to collaborate with my architect/designer?
                             </a>
                         </h3>
@@ -52,7 +52,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
                                 How do you maintain communication with clients during the construction process?
                             </a>
                         </h3>
@@ -73,7 +73,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                 How do you ensure that the budget is adhered to?
                             </a>
                         </h3>
@@ -94,7 +94,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                 How do you manage a job-site?
                             </a>
                         </h3>
@@ -114,7 +114,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading5">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                 How long is the building process?
                             </a>
                         </h3>
@@ -139,7 +139,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading6">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                 How long will my property be covered under Home Warranty Insurance / Home Building
                                 Compensation?
                             </a>
@@ -161,7 +161,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading7">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
                                 What materials do you use?
                             </a>
                         </h3>

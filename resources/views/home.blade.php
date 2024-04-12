@@ -10,6 +10,18 @@
     <main>
         @include('includes/services')
 
+        <section id="Custom-CTA" class="section-with-background d-flex align-items-center justify-content-center" style="background-image: url('{{ asset('storage/images/service.jpg') }}'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 500px;">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="cta-content text-white py-5 px-4" style="margin: auto; background: rgba(0, 0, 0, 0.5); border-radius: 10px; font-size: 18px;">
+                            <p>We are passionate about quality, craftsmanship and building beautifully designed spaces that stand the test of time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="ftco-section ftco-no-pt ftco-no-pb">
             <div class="container">
                 <div class="row justify-content-center mt-5 mb-5 pb-3">

@@ -13,7 +13,7 @@
                         </a>
                     </div>
                     <div class="col-6 col-md-4 pt-5 navbar-brand text-center d-none d-md-block">
-                        <span>LUXURY</span>HOME<span>BUILDERS</span>
+                        <span>LUXURY</span><span style="color: white;">HOME</span><span>BUILDERS</span>
                     </div>
                     <div class="col-4 col-md-2 pt-5 navbar-brand text-center d-md-block justify-content-center">
                         <!-- START nav -->

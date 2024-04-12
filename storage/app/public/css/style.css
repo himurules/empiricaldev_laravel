@@ -11038,7 +11038,7 @@ textarea.form-control {
 }
 .accordion-section .panel-default > .panel-heading {
   border: 0;
-  background: #f4f4f4;
+  background: #CADB31;
   padding: 0;
 }
 
@@ -11053,7 +11053,7 @@ textarea.form-control {
   font-style: normal;
   font-size: 3rem;
   content: "\f106";
-  color: #000000;
+  color: #ffffff;
   float: right;
   margin-top: -12px;
 }
@@ -11122,3 +11122,16 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+.gallery-item, .video-item {
+    margin-bottom: 30px;
+}
+.gallery-item img, .video-item iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.section-heading {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}

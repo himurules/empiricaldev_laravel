@@ -6,86 +6,96 @@
 
 @section('keywords', 'Empirical Developments, projects, portfolio, Sydney Area, residential homes, commercial constructions, high-quality results')
 
-@section('sub-title', 'Our Gallery')
+@section('sub-title', 'Media')
 
 @section('content')
 
     <section class="ftco-section ftco-no-pt ftco-no-pb">
-        <div class="container-fluid px-md-0">
-            <div class="row no-gutters">
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-1.jpg') }});">
-                        <a href="{{ asset('storage/images/work-1.jpg') }}"
+        <div class="container pt-4">
+            <!-- Images Heading -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Media Features</h3>
+                </div>
+            </div>
+            <!-- Images -->
+            <div class="row">
+                <!-- Image 1 -->
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-14.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-14.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-2.jpg') }});">
-                        <a href="{{ asset('storage/images/work-2.jpg') }}"
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-13.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-13.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-3.jpg') }});">
-                        <a href="{{ asset('storage/images/work-3.jpg') }}"
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-12.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-12.jpg') }}"
                            class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <!-- Image 1 -->
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-2.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-2.jpg') }}"
+                           class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-4.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-4.jpg') }}"
+                           class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-5.jpg') }});">
+                        <a href="{{ asset('storage/images/work-org-5.jpg') }}"
+                           class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Repeat for other images... -->
+            </div>
 
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-4.jpg') }});">
-                        <a href="{{ asset('storage/images/work-4.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
+            <!-- Videos Heading -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Videos</h3>
                 </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-5.jpg') }});">
-                        <a href="{{ asset('storage/images/work-5.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
+            </div>
+            <!-- Videos -->
+            <div class="row">
+                <!-- Video 1 -->
+                <div class="col-md-6 video-item">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eiVuCpnOQCU?feature=oembed" allowfullscreen></iframe>
                     </div>
+                    <p>My cool project 1 walk through</p>
                 </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-6.jpg') }});">
-                        <a href="{{ asset('storage/images/work-6.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
+                <!-- Video 2 -->
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4No2sID-eFk?feature=oembed" allowfullscreen></iframe>
                     </div>
-                </div>
-
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-7.jpg') }});">
-                        <a href="{{ asset('storage/images/work-7.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-8.jpg') }});">
-                        <a href="{{ asset('storage/images/work-8.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 ftco-animate">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-9.jpg') }});">
-                        <a href="{{ asset('storage/images/work-9.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
+                    <p>My cool project 2 walk through</p>
                 </div>
             </div>
         </div>
