@@ -46,34 +46,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- Image 1 -->
-                <div class="col-md-4 gallery-item">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-2.jpg') }});">
-                        <a href="{{ asset('storage/images/work-org-2.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-4.jpg') }});">
-                        <a href="{{ asset('storage/images/work-org-4.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <div class="work img d-flex align-items-end" style="background-image: url({{ asset('storage/images/work-org-5.jpg') }});">
-                        <a href="{{ asset('storage/images/work-org-5.jpg') }}"
-                           class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- Repeat for other images... -->
-            </div>
 
             <!-- Videos Heading -->
             <div class="row">
