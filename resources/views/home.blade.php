@@ -30,34 +30,19 @@
                     </div>
                 </div>
                 <div class="row d-flex no-gutters">
-                    <div class="col-md-6">
-                        <div>
-                            <div class="align-items-center justify-content-center justify-content-md-end">
-                                <a href="/project-details/strathfield">
-                                    <img src="{{ asset('storage/images/work-1.jpg') }}" alt="about-us" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
-                                </a>
-                            </div>
-                        </div>
+                    <!-- First Project -->
+                    <div class="col-md-6 order-md-1">
+                        <a href="/project-details/strathfield">
+                            <img src="{{ asset('storage/images/work-1.jpg') }}" alt="about-us" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
+                        </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-md-2">
                         <div class="text-center">
                             <div class="row justify-content-start">
                                 <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
                                     <h2>Strathfield Renovation</h2>
-                                </div>
-                            </div>
-                            <div class="row justify-content-start">
-                                <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                                    <strong>
-                                        Complete Renovation And Multi-Level Extension
-                                    </strong>
-                                </div>
-                            </div>
-                            <div class="row justify-content-start">
-                                <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                                    <p>
-                                        Modern architecture incorporated into a traditional period home. Full renovation and third story addition with harbor views to create more space for a growing family.
-                                    </p>
+                                    <strong>Complete Renovation And Multi-Level Extension</strong>
+                                    <p>Modern architecture incorporated into a traditional period home. Full renovation and third story addition with harbor views to create more space for a growing family.</p>
                                     <a href="/project-details/strathfield" class="btn btn-primary">View More</a>
                                 </div>
                             </div>
@@ -65,36 +50,21 @@
                     </div>
                 </div>
                 <div class="row d-flex no-gutters">
-                    <div class="col-md-6">
+                    <!-- Second Project -->
+                    <div class="col-md-6 order-md-1">
+                        <a href="#">
+                            <img src="{{ asset('storage/images/work-4.jpg') }}" alt="about-us" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
+                        </a>
+                    </div>
+                    <div class="col-md-6 order-md-2">
                         <div class="text-center">
                             <div class="row justify-content-start">
                                 <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                                    <h2>My cool new Project</h2>
-                                </div>
-                            </div>
-                            <div class="row justify-content-start">
-                                <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                                    <strong>
-                                        Coming soon with our latest project
-                                    </strong>
-                                </div>
-                            </div>
-                            <div class="row justify-content-start">
-                                <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                                    <p>
-                                        Modern architecture incorporated into a traditional period home. Full renovation and third story addition with harbor views to create more space for a growing family.
-                                    </p>
+                                    <h2>My Cool New Project</h2>
+                                    <strong>Coming soon with our latest project</strong>
+                                    <p>Stay tuned for more details about our innovative new project.</p>
                                     <a href="#" class="btn btn-primary">View More</a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div>
-                            <div class="align-items-center justify-content-center justify-content-md-end">
-                                <a href="#">
-                                    <img src="{{ asset('storage/images/work-4.jpg') }}" alt="about-us" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
-                                </a>
                             </div>
                         </div>
                     </div>

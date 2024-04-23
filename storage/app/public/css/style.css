@@ -11135,3 +11135,11 @@ textarea.form-control {
     margin-bottom: 30px;
     text-align: center;
 }
+@media (min-width: 768px) {
+    .ftco-section .row.d-flex:nth-of-type(even) .col-md-6:nth-child(odd) {
+        order: 2; /* Ensures images in odd rows are on the left */
+    }
+    .ftco-section .row.d-flex:nth-of-type(even) .col-md-6:nth-child(even) {
+        order: 1; /* Ensures texts in odd rows are on the right */
+    }
+}
