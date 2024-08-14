@@ -35,7 +35,7 @@
                 <div class="row justify-content-center">
                     <ul class="list-unstyled text-center"> <!-- Add 'text-center' here if needed -->
                         <li>
-                            <p>Empirical Development PTY Limited | Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                            <p>Empirical Developments PTY Limited | Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                                 All rights reserved
                             </p>
                         </li>
