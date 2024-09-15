@@ -8809,8 +8809,8 @@ header {
 }
 
 header.scrolled {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 1%, rgba(0, 0, 0, 0.5) 38%, transparent);
-  transform-style: preserve-3d;
+    background: rgba(0, 0, 0, 1); /* Solid black background */
+    transform-style: preserve-3d;
 }
 
 .scrolled {

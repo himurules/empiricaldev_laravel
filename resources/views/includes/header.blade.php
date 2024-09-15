@@ -28,13 +28,13 @@
                                             <a href="/" class="nav-link">Home</a>
                                         </li>
                                         <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}">
-                                            <a href="/about-us" class="nav-link">About</a>
+                                            <a href="/about-us" class="nav-link">About Us</a>
                                         </li>
                                         <li class="nav-item {{ request()->is('our-services') ? 'active' : '' }}">
-                                            <a href="/our-services" class="nav-link">Services</a>
+                                            <a href="/our-services" class="nav-link">Our Services</a>
                                         </li>
                                         <li class="nav-item {{ request()->is('our-projects') ? 'active' : '' }}">
-                                            <a href="/our-projects" class="nav-link">Projects</a>
+                                            <a href="/our-projects" class="nav-link">Our Projects</a>
                                         </li>
                                         <li class="nav-item {{ request()->is('our-gallery') ? 'active' : '' }}">
                                             <a href="/our-gallery" class="nav-link">Media</a>
@@ -43,7 +43,7 @@
                                             <a href="/faq" class="nav-link">FAQ</a>
                                         </li>
                                         <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}">
-                                            <a href="/contact-us" class="nav-link">Contact</a>
+                                            <a href="/contact-us" class="nav-link">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -106,9 +106,6 @@
         <div class="container" style="margin-top: 210px;">
             <div class="row no-gutters slider-text align-items-end">
                 <div class="col-md-9 ftco-animate pb-5">
-                    <p class="breadcrumbs mb-2"><span>@yield('sub-title') <i
-                                class="ion-ios-arrow-forward"></i></span>
-                    </p>
                     <h1 class="mb-0 bread">@yield('sub-title')</h1>
                 </div>
             </div>

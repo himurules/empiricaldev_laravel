@@ -8,7 +8,7 @@
                     </a>
                     <div class="text mt-3 text-center text-uppercase">
                         <h3 class="heading">
-                            <a href="/project-details/strathfield">Strathfield Renovation</a>
+                            <a href="/project-details/strathfield">Augusta Street Luxury Home</a>
                         </h3>
                     </div>
                 </div>
@@ -16,11 +16,11 @@
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch w-100">
                     <a href="#" class="block-20 rounded"
-                       style="background-image: url('{{ asset('storage/images/work-2.jpg') }}');">
+                       style="background-image: url('{{ asset('storage/images/work-2.png') }}');">
                     </a>
                     <div class="text mt-3 text-center text-uppercase">
                         <h3 class="heading">
-                            <a href="#">Project 2 - Coming Soon</a>
+                            <a href="#">Meredith Street Luxury Home</a>
                         </h3>
                     </div>
                 </div>
@@ -28,12 +28,12 @@
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch w-100">
                     <a href="#" class="block-20 rounded"
-                       style="background-image: url('{{ asset('storage/images/work-3.jpg') }}');">
+                       style="background-image: url('{{ asset('storage/images/work-3.png') }}');">
                     </a>
                     <div class="text mt-3 text-center">
                         <div class="text mt-3 text-center text-uppercase">
                             <h3 class="heading">
-                                <a href="#">Project 3 - Coming Soon</a>
+                                <a href="#">Parkside Drive Luxury Multi Dwelling</a>
                             </h3>
                         </div>
                     </div>

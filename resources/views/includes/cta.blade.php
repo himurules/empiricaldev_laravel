@@ -3,7 +3,8 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
                 <div class="cta-content text-white py-5 px-4" style="margin: auto; background: rgba(0, 0, 0, 0.5); border-radius: 10px; font-size: 18px;">
-                    <p>Let us help you realise your vision to create a custom build that is tailored to your needs</p>
+                    <p>Let us help you bring your vision to life by creating your custom luxury home
+                        builds tailored to suit your needs.</p>
                     <a href="/contact-us" class="btn btn-primary" style="border: 2px solid white;">Get In Touch</a>
                 </div>
             </div>

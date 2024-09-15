@@ -23,7 +23,7 @@
                         <div class="panel-body px-3 mb-4">
                             <p>
                                 Our work includes minor and major projects such as extensions, renovations, boarding homes,
-                                childcare centres, commercial fitouts, residential homes and luxury boutique homes.
+                                commercial fitouts, residential homes and luxury boutique homes.
                             </p>
                         </div>
                     </div>
@@ -148,30 +148,10 @@
                     <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                         <div class="panel-body px-3 mb-4">
                             <p>
-                                As per the NSW Government State Insurance Regulatory Authority (SIRA) guidelines, future
-                                owners of a property are covered for the statutory warranty period (six years for major defects in
-                                the work and two years for other losses from the date of completion of work). An additional six
-                                months cover applies in cases where the loss becomes apparent in the final six months of the
-                                period of insurance. The six-month period starts from the date of the loss becoming apparent.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading p-3 mb-3" role="tab" id="heading7">
-                        <h3 class="panel-title">
-                            <a class="collapsed text-white" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                                What materials do you use?
-                            </a>
-                        </h3>
-                    </div>
-                    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-                        <div class="panel-body px-3 mb-4">
-                            <p>
-                                The architectural plans provided by our clients determine the types of materials utilised on each
-                                job-site. Should any issues arise in the supply or suitability of materials, this will be discussed
-                                with the client.
+                                As per the NSW Government State Insurance Regulatory Authority
+                                (SIRA) guidelines, future owners of a property are covered for the
+                                statutory warranty period - six years for major defects in the work and
+                                two years for other defects from the date of completion of work.
                             </p>
                         </div>
                     </div>

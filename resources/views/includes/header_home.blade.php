@@ -79,13 +79,13 @@
                                         <a href="/" class="nav-link">Home</a>
                                     </li>
                                     <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}">
-                                        <a href="/about-us" class="nav-link">About</a>
+                                        <a href="/about-us" class="nav-link">About Us</a>
                                     </li>
                                     <li class="nav-item {{ request()->is('our-services') ? 'active' : '' }}">
-                                        <a href="/our-services" class="nav-link">Services</a>
+                                        <a href="/our-services" class="nav-link">Our Services</a>
                                     </li>
                                     <li class="nav-item {{ request()->is('our-projects') ? 'active' : '' }}">
-                                        <a href="/our-projects" class="nav-link">Projects</a>
+                                        <a href="/our-projects" class="nav-link">Our Projects</a>
                                     </li>
                                     <li class="nav-item {{ request()->is('our-gallery') ? 'active' : '' }}">
                                         <a href="/our-gallery" class="nav-link">Media</a>
@@ -94,7 +94,7 @@
                                         <a href="/faq" class="nav-link">FAQ</a>
                                     </li>
                                     <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}">
-                                        <a href="/contact-us" class="nav-link">Contact</a>
+                                        <a href="/contact-us" class="nav-link">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -111,9 +111,9 @@
             <div class="col-md-12 ftco-animate">
                 <div class="text w-100 text-center navbar-brand">
                     <span id="text1">
-                        Thinking Of Building A New Home ?
+                        Thinking of building a new home ?
                     </span>
-                    <h1 id="text2" class="mb-3">We are here to help</h1>
+                    <h1 id="text2" class="mb-3">WE ARE HERE TO HELP</h1>
                 </div>
             </div>
         </div>

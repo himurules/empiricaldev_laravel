@@ -12,28 +12,47 @@
                 <div class="m-3">
                     <div class="row justify-content-start">
                         <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                            <p>Empirical Developments PTY Limited is a Sydney based independent enterprise, committed to
-                                delivering the best value in building services. Established in 2020, Empirical Developments
-                                came into existence when two passionate builders with a combined 35 years of experience,
-                                Daniel Lopez and Adam Liman, teamed up to fulfill their dream of creating luxurious and
-                                extravagant homes.</p>
+                            <p>Empirical Developments is a Sydney, Australian owned and operated
+                                independent organisation dedicated to delivering the highest quality building
+                                services.</p>
                         </div>
                     </div>
                     <div class="row justify-content-start">
                         <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                            <p>Our mission is simple. We strive to build extravagant homes that embody luxury and comfort,
-                                tailored to the unique taste of each client. We believe in the power of collaboration and work
-                                closely with our clients, allowing us to understand their vision and translate it into reality. This is
-                                made possible through our long established relationships with our suppliers, designers,
-                                architects and tradesmen.</p>
+                            <p>From humble beginnings in 2020, our passionate founders Daniel Lopez and
+                                Adam Liman combined their industry experience and skill sets for crafting luxury
+                                homes to continuously achieve results to forge Empirical Developments.</p>
                         </div>
                     </div>
                     <div class="row justify-content-start">
                         <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
-                            <p>As directors of Empirical Developments, we are actively involved in managing the company and
-                                ensuring each client receives the best service possible. Our work experience spans across
-                                Sydney and includes minor and major projects such as extensions, renovations, boarding
-                                homes, childcare centres, commercial fitouts, residential homes and luxury boutique homes.
+                            <p>Our mission at Empirical Developments is to incorporate the science of
+                                constructing quality built luxury homes with each clients touch of
+                                personalisation. Our number goal at Empirical Developments is to collaborate
+                                closely with each client to transform their vision and dreams into reality.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
+                            <p>The team at Empirical Developments work day and night to deliver customer
+                                satisfaction by building and maintaining long lasting relationships with our
+                                suppliers, designers, architects and tradesmen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
+                            <p>No project is too small or too large for us! Our extensive industry knowledge in
+                                superior projects range minor to major luxury home builds all across Sydney,
+                                Australia includes - extensions, renovations, boarding homes, childcare centers,
+                                commercial fit-outs, residential properties, and luxury boutique homes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start">
+                        <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
+                            <p>Get in touch today!
                             </p>
                         </div>
                     </div>

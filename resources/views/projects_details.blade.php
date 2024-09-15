@@ -19,14 +19,14 @@
                     </p>
                     <h2 class="mb-3">Details</h2>
                     <p>
-                        Modern architecture incorporated into a traditional period home. Full renovation and third story addition with harbor views to create more space for a growing family.
+                        The finest brand-new estate to accompany the market in Strathfield, this landmark residence fuses flawless architecture, tropical landscaping, and refined interior design. Its sheer-scale interiors reveal purified luxury, state-of-the-art innovation and meticulous attention to detail whilst seamlessly integrating in/outdoor space. Set to impress the most disconcerting of buyers, this exclusive home has been built to prioritise optimal liveability with a bright north-to-rear aspect and finishes in Italian marble detail, off-form concrete, natural European oak, travertine & limestone.
                     </p>
                 </div> <!-- .col-md-8 -->
                 <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
                     <div class="sidebar-box ftco-animate">
                         <div class="categories">
                             <h3>Project</h3>
-                            <li>Strathfield Renovation</li>
+                            <li>Augusta Street Luxury Home</li>
                             <h3>Location</h3>
                             <li>Strathfield</li>
                         </div>
@@ -35,20 +35,20 @@
                     <div class="sidebar-box ftco-animate">
                         <h3>More Projects</h3>
                         <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url({{ asset('storage/images/work-6.jpg') }});"></a>
+                            <a class="blog-img mr-4" style="background-image: url({{ asset('storage/images/work-2.png') }});"></a>
                             <div class="text">
-                                <h3 class="heading"><a href="#">Project 1 - Coming soon</a></h3>
+                                <h3 class="heading"><a href="#">Meredith Street Luxury Home</a></h3>
                                 <div class="meta">
-                                    <div><a href="#"><span class="icon-calendar"></span> Aug. 30, 2024</a></div>
+                                    <div>Location: Homebush</div>
                                 </div>
                             </div>
                         </div>
                         <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url({{ asset('storage/images/work-7.jpg') }});"></a>
+                            <a class="blog-img mr-4" style="background-image: url({{ asset('storage/images/work-3.png') }});"></a>
                             <div class="text">
-                                <h3 class="heading"><a href="#">Project 2 - Coming soon</a></h3>
+                                <h3 class="heading"><a href="#">Parkside Drive Luxury Multi Dwelling</a></h3>
                                 <div class="meta">
-                                    <div><a href="#"><span class="icon-calendar"></span> Sep. 08, 2024</a></div>
+                                    <div>Location: Kogarah Bay</div>
                                 </div>
                             </div>
                         </div>
