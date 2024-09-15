@@ -44,9 +44,9 @@
                     <div class="row justify-content-start">
                         <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
                             <p>No project is too small or too large for us! Our extensive industry knowledge in
-                                superior projects range minor to major luxury home builds all across Sydney,
-                                Australia includes - extensions, renovations, boarding homes, childcare centers,
-                                commercial fit-outs, residential properties, and luxury boutique homes.
+                                superior projects range from minor to major luxury home builds all across
+                                Sydney, Australia includes - extensions, renovations, boarding homes, childcare
+                                centres, commercial fit-outs, residential properties, and luxury boutique homes.
                             </p>
                         </div>
                     </div>

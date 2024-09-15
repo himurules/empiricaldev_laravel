@@ -15,7 +15,7 @@
                 <div class="col-md-12">
                     <div class="wrapper">
                         <div class="contact-wrap w-100 p-md-5 p-4">
-                            <h3>Empirical Developments PTY LMT</h3>
+                            <h3>Empirical Developments PTY LTD</h3>
                             <div class="row">
                                 <div class="col-md-6 text-left">
                                     <p>ABN 34 637 544 908</p>
