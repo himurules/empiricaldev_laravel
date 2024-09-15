@@ -8809,7 +8809,7 @@ header {
 }
 
 header.scrolled {
-    background: rgba(0, 0, 0, 1); /* Solid black background */
+    background: rgba(0, 0, 0, 0.85);
     transform-style: preserve-3d;
 }
 
