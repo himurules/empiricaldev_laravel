@@ -15,7 +15,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 col-lg-6">
                         <div class="cta-content text-white py-5 px-4" style="margin: auto; background: rgba(0, 0, 0, 0.5); border-radius: 10px; font-size: 18px;">
-                            <p>We are passionate about building beautifully designed spaces that are long lasting and bring your unique luxury home visions to life.</p>
+                            <p>We are passionate about building beautifully designed spaces that are long lasting and bringing your unique luxury home visions to life.</p>
                         </div>
                     </div>
                 </div>
