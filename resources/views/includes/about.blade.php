@@ -28,7 +28,7 @@
                         <div class="col-md-12 heading-section ftco-animate pl-md-4 py-md-2">
                             <p>Our mission at Empirical Developments is to incorporate the science of
                                 constructing quality built luxury homes with each clients touch of
-                                personalisation. Our number goal at Empirical Developments is to collaborate
+                                personalisation. Our number one goal at Empirical Developments is to collaborate
                                 closely with each client to transform their vision and dreams into reality.
                             </p>
                         </div>
