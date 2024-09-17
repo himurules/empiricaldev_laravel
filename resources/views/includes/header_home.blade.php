@@ -111,7 +111,7 @@
             <div class="col-md-12 ftco-animate">
                 <div class="text w-100 text-center navbar-brand">
                     <span id="text1">
-                        Thinking of building a new home ?
+                        Thinking of building a new home?
                     </span>
                     <h1 id="text2" class="mb-3">WE ARE HERE TO HELP</h1>
                 </div>
